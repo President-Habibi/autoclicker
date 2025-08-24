@@ -5,9 +5,9 @@ set(CMAKE_CXX_STANDARD 17)
 
 include_directories(include)
 
-add_executable("MC_Autoclicker"
-    "src/mc_autoclicker.cpp"
- "src/main.cpp" "src/gui.cpp")
+add_executable(MC_Autoclicker
+	src/main.cpp
+	src/mc_autoclicker.cpp)
 
 # SDL headers
 target_include_directories(MC_Autoclicker PRIVATE "C:\\C++ Libraries\\SDL3-3.2.16\\include")

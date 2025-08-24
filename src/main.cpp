@@ -3,11 +3,11 @@
 
 int main(int argc, char* argv[])
 {
-	std::cout << "Starting Habibi's mind-blowing autoclicker..." << std::endl;
+	std::cout << "President_Habibi's autoclicker\n\n\n";
 
 	try {
 		startAutoclicker();
-	} catch(const std::runtime_error & e) {
+	} catch (const std::runtime_error& e) {
 		std::cerr << e.what() << std::endl;
 	}
 
